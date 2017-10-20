@@ -96,3 +96,26 @@ h1, h2, h3, h4, h5, h6 {
 	border: none;
 	background-color: #428c5c;
 }
+.feature-caption h4 {
+	color: #262626;
+	font-size: 24px;
+	line-height: 27px;
+}
+.feature {
+	margin-bottom: 16px;
+}
+
+.feature-caption p {
+	color: #595959;
+	font-size: 16px;
+	line-height: 26px;
+}
+.feature-icon span {
+	width: 66px;
+	border-radius: 10px;
+	height: 66px;
+	background-color: #428c5c;
+	color: #ffffff;
+	font-size: 24px;
+	padding-top: 20px;
+}
