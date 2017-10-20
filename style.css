@@ -1,0 +1,98 @@
+@charset "utf-8";
+.navbar li a {
+	font-size: 14px;
+	font-weight: 700;
+	font-family: Nunito;
+	color: #fefefe;
+	text-transform: uppercase;
+}
+body {
+	font-family: roboto;
+	font-style: normal;
+	font-weight: 200;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: nunito;
+}
+
+
+.navbar li.active a {
+	color: #428c5c;
+
+}
+.navbar-form .form-control {
+	width: 35px;
+	background-image: url(images/search-icon.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	border: none;
+	background-color: transparent;
+	-webkit-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s;
+}
+.navbar-form .form-control:focus {
+	width: 150px;
+	background-color: #FFFFFF;
+	background-image: none;
+}
+.carousel-caption {
+	position:absolute;
+	bottom: initial;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 30%;
+	left: 30%;
+}
+
+.carousel-caption h5 {
+	font-family: OldStandardTT;
+	color: #d9d9d9;
+	font-size: 23.69px;
+	font-style: italic;
+}
+.carousel-caption h3 {
+	font-size: 42px;
+	font-weight: 400;
+	line-height: 48px;
+	color: #ffffff;
+	transform: scale(1.266,1.266);
+	margin-top: 28px;
+}
+.carousel-caption h3 span {
+	color: #428C5C;
+}
+
+.carousel-caption p {
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 28px;
+	font-family: Roboto;
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+.carousel-caption .btn {
+	width: 231px;
+	height: 58px;
+	border-radius: 0;
+	background-color: #165873;
+	padding-top: 13px;
+	font-family: Nunito;
+	color: #ffffff;
+	font-size: 22px;
+	font-weight: 300;
+	padding-bottom: 0px;
+	margin-right: 8px;
+}
+.carousel-caption .btn.btn-default  {
+	border: 1px solid #fff;
+	background-color: transparent;
+
+}
+.carousel-caption hr {
+	width: 109px;
+	height: 4px;
+	border: none;
+	background-color: #428c5c;
+}
